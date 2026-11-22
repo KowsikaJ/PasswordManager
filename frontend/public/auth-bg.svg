@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1017"/>
+      <stop offset="0.6" stop-color="#111827"/>
+      <stop offset="1" stop-color="#172033"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#ffffff" stroke-opacity="0.025"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+
+  <g fill="none" stroke="#94a3b8" stroke-opacity="0.10" stroke-width="2">
+    <polyline points="0,220 260,220 340,300 620,300 700,380"/>
+    <polyline points="0,640 180,640 260,560 520,560 640,480"/>
+    <polyline points="1600,260 1340,260 1260,340 1000,340 910,420"/>
+    <polyline points="1600,700 1400,700 1320,620 1080,620 960,520"/>
+    <polyline points="400,1000 400,860 520,780 700,780 760,700"/>
+    <polyline points="1200,0 1200,120 1100,200 900,200 860,290"/>
+  </g>
+  <g fill="#94a3b8" fill-opacity="0.22">
+    <circle cx="700" cy="380" r="6"/>
+    <circle cx="640" cy="480" r="6"/>
+    <circle cx="910" cy="420" r="6"/>
+    <circle cx="960" cy="520" r="6"/>
+    <circle cx="760" cy="700" r="6"/>
+    <circle cx="860" cy="290" r="6"/>
+    <circle cx="340" cy="300" r="4"/>
+    <circle cx="260" cy="560" r="4"/>
+    <circle cx="1260" cy="340" r="4"/>
+    <circle cx="1320" cy="620" r="4"/>
+  </g>
+</svg>
